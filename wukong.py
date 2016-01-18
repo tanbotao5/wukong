@@ -48,8 +48,8 @@ class ChatHandler:
 
 
       #包括同步、更新用户profile、查询用户profile、批量查询用户profile
-	  #data = {"avatar":"","birthday":651337200000,"gender":1,"isActive":true,"nick":"tianpeng", \
-	  #          "nickPinyin":"testpinyin","openid":11111,"ver":1}
+      #data = {"avatar":"","birthday":651337200000,"gender":1,"isActive":true,"nick":"tianpeng", \
+      #          "nickPinyin":"testpinyin","openid":11111,"ver":1}
 
       def addOrUpdateUserInfo(self,data):               
 		    try:
